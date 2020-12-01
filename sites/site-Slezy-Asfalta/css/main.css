@@ -50,7 +50,7 @@ a span {
   padding: 15px 25px;
   background: black;
   border-radius: 20px;
-  box-shadow: 0px 4px 0px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0 4px 0 0 rgba(50, 50, 50, 0.75);
   transition: 0.1s;
 }
 .button:hover {
@@ -73,7 +73,7 @@ span {
 .page1 {
   align-items: flex-start;
   background: #fdd000;
-  box-shadow: 0 1px 10px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0 1px 10px 0 rgba(50, 50, 50, 0.75);
 }
 .page1 header {
   width: 100%;
@@ -173,6 +173,9 @@ span {
   width: 200px;
   height: 200px;
   border-radius: 50px;
+}
+.page4 .main-content .ul .li > span {
+  text-align: center;
 }
 .page4 .main-content .ul .li a:hover span {
   font-size: 22px;
