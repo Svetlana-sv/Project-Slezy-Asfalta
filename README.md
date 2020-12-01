@@ -12,16 +12,16 @@
 
 ## Участники
 
-| Учебная группа | Имя пользователя                               | ФИО                      |
-|----------------|------------------------------------------------|--------------------------|
-| 191-321        | [PsyByACET](https://github.com/PsyByACET)      | Герасимов А. Э.          |
-| 191-321        | [kolaqsq](https://github.com/kolaqsq)          | Огородников Н. А.        |
-| 191-321        | [nokk3r](https://github.com/nokk3r)            | Самсонов В. А.           |
-| 191-322        | ---                                            | Курникова В. А.          |
-| 191-352        | ---                                            | Магомедов Т. М.          |
-| 191-361        | [AHEGAO1707](https://github.com/AHEGAO1707)    | Алексеев Е. Р.           |
-| 191-361        | [kirilla111](https://github.com/kirilla111)    | Афанасьев К. М.          |
-| 191-361        | [Svetlana-sv](https://github.com/Svetlana-sv)  | Каменских С. С.          |
+| Учебная группа | Имя пользователя                                 | ФИО                      |
+|----------------|--------------------------------------------------|--------------------------|
+| 191-321        | [PsyByACET](https://github.com/PsyByACET)        | Герасимов А. Э.          |
+| 191-321        | [kolaqsq](https://github.com/kolaqsq)            | Огородников Н. А.        |
+| 191-321        | [nokk3r](https://github.com/nokk3r)              | Самсонов В. А.           |
+| 191-322        | [ViktoriyaKkkk](https://github.com/ViktoriyaKkkk)| Курникова В. А.          |
+| 191-352        | ---                                              | Магомедов Т. М.          |
+| 191-361        | [AHEGAO1707](https://github.com/AHEGAO1707)      | Алексеев Е. Р.           |
+| 191-361        | [kirilla111](https://github.com/kirilla111)      | Афанасьев К. М.          |
+| 191-361        | [Svetlana-sv](https://github.com/Svetlana-sv)    | Каменских С. С.          |
 
 ## Личный вклад участников
 
