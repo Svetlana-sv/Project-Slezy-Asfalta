@@ -1,0 +1,83 @@
+$mainColor: silver
+$secondColor: #c4c4c4
+$textColor: #888
+body 
+    margin: 0
+    padding: 0
+    font-family: 'Rubik', sans-serif
+
+header
+    background: url(..//img/main_BG.png)  no-repeat center center fixed
+    height: 100vh
+    
+    .navbar-collapse
+        float: right!important
+        a 
+            color: white!important
+            font-size: 1.35em
+            transition: 0.5s
+            &:hover
+                background-color: rgba(0,0,0,0.3)
+        .navbar-nav 
+            margin-left: auto
+    .socialNetwork
+        float: right
+        padding: 20px
+        li
+            list-style-type: none
+        img
+            width: 60px
+            border-radius: 1000px
+            margin-bottom: 10px
+            transition: 0.5s
+            &:hover
+                width: 70px
+                box-shadow: 0 0 20px rgba(255,255,255,0.7)
+
+        
+section
+    background: url(..//img/background.png)  no-repeat center center fixed
+    padding: 50px 0
+    .start-block
+        background: #fff
+        padding: 50px
+        width: 90vw
+        margin: 0 auto
+        li 
+            padding: 10px 0
+            transition: 0.5s
+            &:hover 
+                display: block
+                background-color: $mainColor
+            a 
+                color: black
+                &:hover
+                    text-decoration: none
+
+        
+        .navbar-nav
+            display: block
+            margin: 0 auto
+        .nav-item
+            border-bottom: 2px solid $textColor
+        .last-item
+            border-bottom: none
+        .data
+            display: block
+            color: $textColor
+            font-weight: bold
+            float: right
+            margin-top: -20px
+    .more
+        font-weight: bold
+        text-align: center
+        a 
+            color: $textColor
+            &:hover
+                text-decoration: none
+
+footer
+    background-color: $secondColor
+    text-align: center
+    padding: 40px
+
