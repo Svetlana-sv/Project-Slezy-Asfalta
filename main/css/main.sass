@@ -12,17 +12,27 @@ header
     
     .navbar-collapse
         float: right!important
+        text-align: center
         a 
             color: white!important
-            font-size: 1.35em
+            font-weight: 300
+            font-size: 21px
             transition: 0.5s
             &:hover
                 background-color: rgba(0,0,0,0.3)
+            @media only screen and (max-width: 991px)
+                font-size: 30px
+            @media only screen and (max-width: 769px)
+                font-size: 25px
+            @media only screen and (max-width: 427px)
+                font-size: 20px
+            
         .navbar-nav 
             margin-left: auto
     .socialNetwork
-        float: right
-        padding: 20px
+        position: absolute
+        right: 5%
+        top: 20%
         li
             list-style-type: none
         img
@@ -37,12 +47,19 @@ header
         
 section
     background: url(..//img/background.png)  no-repeat center center fixed
-    padding: 50px 0
+    padding: 3vw 0
     .start-block
         background: #fff
-        padding: 50px
+        padding: 5vw
         width: 90vw
+        font-weight: 500
         margin: 0 auto
+        h1
+            font-size: 60px
+            @media only screen and (max-width: 769px)
+                font-size: 40px
+            @media only screen and (max-width: 427px)
+                font-size: 30px
         li 
             padding: 10px 0
             transition: 0.5s
@@ -60,12 +77,24 @@ section
             margin: 0 auto
         .nav-item
             border-bottom: 2px solid $textColor
+            h3
+                font-size: 50px
+                @media only screen and (max-width: 769px)
+                    font-size: 30px
+                @media only screen and (max-width: 427px)
+                    font-size: 20px
+            p
+                font-size: 25px
+                @media only screen and (max-width: 769px)
+                    font-size: 20px
+                @media only screen and (max-width: 427px)
+                    font-size: 15px
+
         .last-item
             border-bottom: none
         .data
             display: block
             color: $textColor
-            font-weight: bold
             float: right
             margin-top: -20px
     .more
@@ -73,11 +102,24 @@ section
         text-align: center
         a 
             color: $textColor
+            @media only screen and (max-width: 769px)
+                font-size: 25px
+            @media only screen and (max-width: 427px)
+                font-size: 20px
+            
             &:hover
                 text-decoration: none
 
 footer
     background-color: $secondColor
     text-align: center
+    font-weight: 300
+    font-size: 25px
     padding: 40px
+    @media only screen and (max-width: 769px)
+        font-size: 20px
+    @media only screen and (max-width: 427px)
+        font-size: 12px
+        padding: 20px
+    
 

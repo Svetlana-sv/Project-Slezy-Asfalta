@@ -10,21 +10,39 @@ header {
 }
 header .navbar-collapse {
   float: right !important;
+  text-align: center;
 }
 header .navbar-collapse a {
   color: white !important;
-  font-size: 1.35em;
+  font-weight: 300;
+  font-size: 21px;
   transition: 0.5s;
 }
 header .navbar-collapse a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
+@media only screen and (max-width: 991px) {
+  header .navbar-collapse a {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  header .navbar-collapse a {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  header .navbar-collapse a {
+    font-size: 20px;
+  }
+}
 header .navbar-collapse .navbar-nav {
   margin-left: auto;
 }
 header .socialNetwork {
-  float: right;
-  padding: 20px;
+  position: absolute;
+  right: 5%;
+  top: 20%;
 }
 header .socialNetwork li {
   list-style-type: none;
@@ -42,13 +60,27 @@ header .socialNetwork img:hover {
 
 section {
   background: url(..//img/background.png) no-repeat center center fixed;
-  padding: 50px 0;
+  padding: 3vw 0;
 }
 section .start-block {
   background: #fff;
-  padding: 50px;
+  padding: 5vw;
   width: 90vw;
+  font-weight: 500;
   margin: 0 auto;
+}
+section .start-block h1 {
+  font-size: 60px;
+}
+@media only screen and (max-width: 769px) {
+  section .start-block h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  section .start-block h1 {
+    font-size: 30px;
+  }
 }
 section .start-block li {
   padding: 10px 0;
@@ -71,13 +103,38 @@ section .start-block .navbar-nav {
 section .start-block .nav-item {
   border-bottom: 2px solid #888;
 }
+section .start-block .nav-item h3 {
+  font-size: 50px;
+}
+@media only screen and (max-width: 769px) {
+  section .start-block .nav-item h3 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  section .start-block .nav-item h3 {
+    font-size: 20px;
+  }
+}
+section .start-block .nav-item p {
+  font-size: 25px;
+}
+@media only screen and (max-width: 769px) {
+  section .start-block .nav-item p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  section .start-block .nav-item p {
+    font-size: 15px;
+  }
+}
 section .start-block .last-item {
   border-bottom: none;
 }
 section .start-block .data {
   display: block;
   color: #888;
-  font-weight: bold;
   float: right;
   margin-top: -20px;
 }
@@ -88,6 +145,16 @@ section .more {
 section .more a {
   color: #888;
 }
+@media only screen and (max-width: 769px) {
+  section .more a {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  section .more a {
+    font-size: 20px;
+  }
+}
 section .more a:hover {
   text-decoration: none;
 }
@@ -95,5 +162,18 @@ section .more a:hover {
 footer {
   background-color: #c4c4c4;
   text-align: center;
+  font-weight: 300;
+  font-size: 25px;
   padding: 40px;
+}
+@media only screen and (max-width: 769px) {
+  footer {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  footer {
+    font-size: 12px;
+    padding: 20px;
+  }
 }
