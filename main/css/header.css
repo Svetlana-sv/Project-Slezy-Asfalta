@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  background: url(..//img/main_BG.png) no-repeat center center fixed;
+  height: 100vh;
+}
+header .navbar-collapse {
+  float: right !important;
+  text-align: center;
+}
+header .navbar-collapse a {
+  color: white !important;
+  font-weight: 300;
+  font-size: 21px;
+  transition: 0.5s;
+}
+header .navbar-collapse a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 991px) {
+  header .navbar-collapse a {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  header .navbar-collapse a {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  header .navbar-collapse a {
+    font-size: 20px;
+  }
+}
+header .navbar-collapse .navbar-nav {
+  margin-left: auto;
+}
+header .socialNetwork {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
+header .socialNetwork li {
+  list-style-type: none;
+}
+header .socialNetwork img {
+  width: 60px;
+  border-radius: 1000px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+header .socialNetwork img:hover {
+  width: 70px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}

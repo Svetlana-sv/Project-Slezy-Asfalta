@@ -8,6 +8,11 @@ header {
   background: url(..//img/main_BG.png) no-repeat center center fixed;
   height: 100vh;
 }
+@media only screen and (min-width: 1920px) {
+  header {
+    background-size: 100% 100%;
+  }
+}
 header .navbar-collapse {
   float: right !important;
   text-align: center;
@@ -62,12 +67,18 @@ section {
   background: url(..//img/background.png) no-repeat center center fixed;
   padding: 3vw 0;
 }
+@media only screen and (min-width: 1920px) {
+  section {
+    background-size: 100% 100%;
+  }
+}
 section .start-block {
   background: #fff;
   padding: 5vw;
   width: 90vw;
   font-weight: 500;
   margin: 0 auto;
+  max-width: 1900px;
 }
 section .start-block h1 {
   font-size: 60px;
@@ -103,19 +114,6 @@ section .start-block .navbar-nav {
 section .start-block .nav-item {
   border-bottom: 2px solid #888;
 }
-section .start-block .nav-item h3 {
-  font-size: 50px;
-}
-@media only screen and (max-width: 769px) {
-  section .start-block .nav-item h3 {
-    font-size: 30px;
-  }
-}
-@media only screen and (max-width: 427px) {
-  section .start-block .nav-item h3 {
-    font-size: 20px;
-  }
-}
 section .start-block .nav-item p {
   font-size: 25px;
 }
@@ -127,6 +125,28 @@ section .start-block .nav-item p {
 @media only screen and (max-width: 427px) {
   section .start-block .nav-item p {
     font-size: 15px;
+  }
+}
+section .start-block .nav-item .nav-item__block {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 769px) {
+  section .start-block .nav-item .nav-item__block {
+    flex-direction: column;
+  }
+}
+section .start-block .nav-item .nav-item__img {
+  width: 10vw;
+  height: 10vw;
+  min-width: 150px;
+  min-height: 150px;
+  margin-right: 1vw;
+}
+@media only screen and (max-width: 769px) {
+  section .start-block .nav-item .nav-item__img {
+    width: 75vw;
+    margin: 0 auto;
   }
 }
 section .start-block .last-item {
