@@ -1,0 +1,42 @@
+@import "header-2-version.sass"
+
+section
+    background: url(..//img/background.png)  no-repeat center center fixed
+    padding: 3vw 0
+    @media only screen and (min-width: 1920px)
+        background-size: 100% 100%
+    .info-block
+        background: #fff
+        padding: 5vw
+        width: 90vw
+        font-weight: 500
+        margin: 0 auto
+        max-width: 1900px
+        font-size: 25px
+        @media only screen and (max-width: 769px)
+            font-size: 20px
+        @media only screen and (max-width: 427px)
+            font-size: 15px
+        h1
+            font-size: 60px
+            @media only screen and (max-width: 769px)
+                font-size: 40px
+            @media only screen and (max-width: 427px)
+                font-size: 30px
+        @media only screen and (min-width: 770px)
+            .about-block__img-even
+                width: 30vw
+                float: right
+                margin-left: 3vw
+            .about-block__img-noteven
+                width: 30vw
+                float: left
+                margin-right: 3vw
+        @media only screen and (max-width: 769px)
+            &__about-block
+                display: flex
+                flex-direction: column
+                img
+                    height: 30vw
+
+@import "footer.sass"
