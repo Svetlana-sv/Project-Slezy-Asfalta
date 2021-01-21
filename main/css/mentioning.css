@@ -3,9 +3,15 @@ body {
   padding: 0;
   font-family: "Rubik", sans-serif;
 }
+body h1 {
+  color: #888;
+}
+body li {
+  list-style-type: none;
+}
 
 header {
-  background: url(..//img/main_BG.png) no-repeat center center fixed;
+  background: url(..//img/main_BG.png) no-repeat center fixed;
   height: 60vh;
 }
 @media only screen and (min-width: 1920px) {
@@ -112,36 +118,36 @@ section .start-block li a {
 section .start-block li a:hover {
   text-decoration: none;
 }
-section .start-block .navbar-nav {
+section .start-block .mentioning__block__list {
   display: block;
   margin: 0 auto;
 }
-section .start-block .nav-item {
+section .start-block .mentioning__block__item {
   border-bottom: 2px solid #888;
 }
-section .start-block .nav-item p {
+section .start-block .mentioning__block__item p {
   font-size: 25px;
 }
 @media only screen and (max-width: 769px) {
-  section .start-block .nav-item p {
+  section .start-block .mentioning__block__item p {
     font-size: 20px;
   }
 }
 @media only screen and (max-width: 427px) {
-  section .start-block .nav-item p {
+  section .start-block .mentioning__block__item p {
     font-size: 15px;
   }
 }
-section .start-block .nav-item .nav-item__block {
+section .start-block .mentioning__block__item .item__block {
   display: flex;
   align-items: center;
 }
 @media only screen and (max-width: 769px) {
-  section .start-block .nav-item .nav-item__block {
+  section .start-block .mentioning__block__item .item__block {
     flex-direction: column;
   }
 }
-section .start-block .nav-item .nav-item__img {
+section .start-block .mentioning__block__item .item__img {
   width: 10vw;
   height: 10vw;
   min-width: 150px;
@@ -149,7 +155,7 @@ section .start-block .nav-item .nav-item__img {
   margin-right: 1vw;
 }
 @media only screen and (max-width: 769px) {
-  section .start-block .nav-item .nav-item__img {
+  section .start-block .mentioning__block__item .item__img {
     width: 75vw;
     margin: 0 auto;
   }

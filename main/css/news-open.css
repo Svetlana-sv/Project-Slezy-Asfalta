@@ -104,70 +104,55 @@ section .start-block h1 {
     font-size: 30px;
   }
 }
-section .start-block li {
-  padding: 10px 0;
-  transition: 0.5s;
+section .news-open__titleData {
+  display: flex;
+  justify-content: space-between;
 }
-section .start-block li:hover {
-  display: block;
-  background-color: silver;
-}
-section .start-block li a {
-  color: black;
-}
-section .start-block li a:hover {
+section .news-open__titleData a {
   text-decoration: none;
+  color: #888;
 }
-section .start-block .news__block__list {
-  display: block;
-  margin: 0 auto;
+section .news-open__titleData a:hover {
+  text-decoration: none;
+  color: #888;
 }
-section .start-block .news__block__item {
-  border-bottom: 2px solid #888;
+section .news-open__data {
+  color: #888;
+  font-size: 40px;
 }
-section .start-block .news__block__item p {
+@media only screen and (max-width: 769px) {
+  section .news-open__data {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  section .news-open__data {
+    font-size: 20px;
+  }
+}
+section .news-open__block {
+  display: flex;
+  justify-content: space-between;
   font-size: 25px;
 }
 @media only screen and (max-width: 769px) {
-  section .start-block .news__block__item p {
+  section .news-open__block {
     font-size: 20px;
   }
 }
 @media only screen and (max-width: 427px) {
-  section .start-block .news__block__item p {
+  section .news-open__block {
     font-size: 15px;
+    flex-direction: column-reverse;
   }
 }
-section .start-block .news__block__item .item__block {
-  display: flex;
-  align-items: center;
+section .news-open__block img {
+  width: 30vw;
 }
-@media only screen and (max-width: 769px) {
-  section .start-block .news__block__item .item__block {
-    flex-direction: column;
+@media only screen and (max-width: 427px) {
+  section .news-open__block img {
+    width: 100%;
   }
-}
-section .start-block .news__block__item .item__img {
-  width: 10vw;
-  height: 10vw;
-  min-width: 150px;
-  min-height: 150px;
-  margin-right: 1vw;
-}
-@media only screen and (max-width: 769px) {
-  section .start-block .news__block__item .item__img {
-    width: 75vw;
-    margin: 0 auto;
-  }
-}
-section .start-block .last-item {
-  border-bottom: none;
-}
-section .start-block .data {
-  display: block;
-  color: #888;
-  float: right;
-  margin-top: -20px;
 }
 
 footer {

@@ -22,6 +22,7 @@ section
         li 
             padding: 10px 0
             transition: 0.5s
+            list-style-type: none
             &:hover 
                 display: block
                 background-color: $mainColor
@@ -31,10 +32,10 @@ section
                     text-decoration: none
 
         
-        .navbar-nav
+        .news__block__list , .mentioning__block__list
             display: block
             margin: 0 auto
-        .nav-item
+        .news__block__item,.mentioning__block__item
             border-bottom: 2px solid $textColor
             p
                 font-size: 25px
@@ -42,13 +43,13 @@ section
                     font-size: 20px
                 @media only screen and (max-width: 427px)
                     font-size: 15px
-            .nav-item__block
+            .item__block
                 display: flex
                 align-items: center
                 @media only screen and (max-width: 769px)
                     flex-direction: column
                     
-            .nav-item__img
+            .item__img
                 width: 10vw
                 height: 10vw
                 min-width: 150px
@@ -57,10 +58,6 @@ section
                 @media only screen and (max-width: 769px)
                     width: 75vw
                     margin: 0 auto
-
-                
-                    
-
         .last-item
             border-bottom: none
         .data
