@@ -133,7 +133,7 @@ section .info-block h1 {
     flex-direction: column;
   }
   section .info-block__performance-block img {
-    height: 30vw;
+    width: 100%;
   }
 }
 
