@@ -8,12 +8,15 @@ body h1 {
 }
 
 header {
-  background: url(..//img/main_BG.png) no-repeat center;
+  background: url(..//img/main_BG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100vh;
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (max-width: 427px) {
   header {
-    background-size: 100% 100%;
+    height: 80vh;
   }
 }
 header .navbar-collapse {
@@ -25,6 +28,11 @@ header .navbar-collapse a {
   font-weight: 300;
   font-size: 21px;
   transition: 0.5s;
+}
+@media only screen and (max-width: 427px) {
+  header .navbar-collapse a {
+    font-size: 14px !important;
+  }
 }
 header .navbar-collapse a:hover {
   background-color: rgba(0, 0, 0, 0.3);
@@ -56,13 +64,19 @@ header .socialNetwork li {
   list-style-type: none;
 }
 header .socialNetwork img {
-  width: 60px;
+  width: 50px;
   border-radius: 1000px;
   margin-bottom: 10px;
+  opacity: 50%;
   transition: 0.5s;
 }
+@media only screen and (max-width: 427px) {
+  header .socialNetwork img {
+    width: 35px;
+  }
+}
 header .socialNetwork img:hover {
-  width: 70px;
+  opacity: 100%;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 

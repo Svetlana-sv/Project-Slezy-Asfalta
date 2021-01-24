@@ -11,13 +11,12 @@ body li {
 }
 
 header {
-  background: url(..//img/main_BG.png) no-repeat center fixed;
-  height: 60vh;
-}
-@media only screen and (min-width: 1920px) {
-  header {
-    background-size: 100% 100%;
-  }
+  background: url(..//img/main_BG_V2.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 65vh;
+  width: 100%;
 }
 @media only screen and (max-width: 427px) {
   header {
@@ -64,13 +63,19 @@ header .socialNetwork li {
   list-style-type: none;
 }
 header .socialNetwork img {
-  width: 60px;
+  width: 50px;
   border-radius: 1000px;
   margin-bottom: 10px;
+  opacity: 50%;
   transition: 0.5s;
 }
+@media only screen and (max-width: 427px) {
+  header .socialNetwork img {
+    width: 35px;
+  }
+}
 header .socialNetwork img:hover {
-  width: 70px;
+  opacity: 100%;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
