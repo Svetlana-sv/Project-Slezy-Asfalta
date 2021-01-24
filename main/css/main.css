@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+body h1 {
+  color: #888;
+}
+
+header {
+  background: url(..//img/main_BG.png) no-repeat center;
+  height: 100vh;
+}
+@media only screen and (min-width: 1920px) {
+  header {
+    background-size: 100% 100%;
+  }
+}
+header .navbar-collapse {
+  float: right !important;
+  text-align: center;
+}
+header .navbar-collapse a {
+  color: white !important;
+  font-weight: 300;
+  font-size: 21px;
+  transition: 0.5s;
+}
+header .navbar-collapse a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+@media only screen and (max-width: 991px) {
+  header .navbar-collapse a {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  header .navbar-collapse a {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  header .navbar-collapse a {
+    font-size: 20px;
+  }
+}
+header .navbar-collapse .navbar-nav {
+  margin-left: auto;
+}
+header .socialNetwork {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
+header .socialNetwork li {
+  list-style-type: none;
+}
+header .socialNetwork img {
+  width: 60px;
+  border-radius: 1000px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+header .socialNetwork img:hover {
+  width: 70px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+section {
+  background: url(..//img/background.png) no-repeat center center fixed;
+  padding: 3vw 0;
+}
+@media only screen and (min-width: 1920px) {
+  section {
+    background-size: 100% 100%;
+  }
+}
+section .start-block {
+  background: #fff;
+  padding: 5vw;
+  width: 90vw;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 1900px;
+}
+section .start-block h1 {
+  font-size: 60px;
+}
+@media only screen and (max-width: 769px) {
+  section .start-block h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  section .start-block h1 {
+    font-size: 30px;
+  }
+}
+section .start-block li {
+  padding: 10px 0;
+  transition: 0.5s;
+  list-style-type: none;
+}
+section .start-block li:hover {
+  display: block;
+  background-color: silver;
+}
+section .start-block li a {
+  color: black;
+}
+section .start-block li a:hover {
+  text-decoration: none;
+}
+section .start-block .news__block__list, section .start-block .mentioning__block__list {
+  display: block;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 427px) {
+  section .start-block .news__block__list, section .start-block .mentioning__block__list {
+    padding-inline-start: 0px !important;
+  }
+}
+section .start-block .news__block__item, section .start-block .mentioning__block__item {
+  border-bottom: 2px solid #888;
+}
+section .start-block .news__block__item p, section .start-block .mentioning__block__item p {
+  font-size: 25px;
+}
+@media only screen and (max-width: 769px) {
+  section .start-block .news__block__item p, section .start-block .mentioning__block__item p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  section .start-block .news__block__item p, section .start-block .mentioning__block__item p {
+    font-size: 15px;
+  }
+}
+section .start-block .news__block__item .item__block, section .start-block .mentioning__block__item .item__block {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 769px) {
+  section .start-block .news__block__item .item__block, section .start-block .mentioning__block__item .item__block {
+    flex-direction: column;
+  }
+}
+section .start-block .news__block__item .item__img, section .start-block .mentioning__block__item .item__img {
+  width: 10%;
+  height: 10%;
+  min-width: 150px;
+  min-height: 150px;
+  margin-right: 1vw;
+}
+@media only screen and (max-width: 769px) {
+  section .start-block .news__block__item .item__img, section .start-block .mentioning__block__item .item__img {
+    margin: 0 auto;
+  }
+}
+section .start-block .last-item {
+  border-bottom: none;
+}
+section .start-block .data {
+  display: block;
+  color: #888;
+  float: right;
+  margin-top: -20px;
+}
+section .more {
+  font-weight: bold;
+  text-align: center;
+}
+section .more a {
+  color: #888;
+}
+@media only screen and (max-width: 769px) {
+  section .more a {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  section .more a {
+    font-size: 20px;
+  }
+}
+section .more a:hover {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #c4c4c4;
+  text-align: center;
+  font-weight: 300;
+  font-size: 25px;
+  padding: 40px;
+}
+@media only screen and (max-width: 769px) {
+  footer {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 427px) {
+  footer {
+    font-size: 12px;
+    padding: 20px;
+  }
+}

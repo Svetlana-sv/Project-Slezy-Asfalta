@@ -1,0 +1,68 @@
+@import "header-2-version.sass"
+
+
+section
+    background: url(..//img/background.png)  no-repeat center center fixed
+    padding: 3vw 0
+    @media only screen and (min-width: 1920px)
+        background-size: 100% 100%
+    .start-block
+        background: #fff
+        padding: 5vw
+        width: 90vw
+        font-weight: 500
+        margin: 0 auto
+        max-width: 1900px
+        h1
+            font-size: 60px
+            @media only screen and (max-width: 769px)
+                font-size: 40px
+            @media only screen and (max-width: 427px)
+                font-size: 30px
+        li 
+            padding: 10px 0
+            transition: 0.5s
+            &:hover 
+                display: block
+                background-color: $mainColor
+            a 
+                color: black
+                &:hover
+                    text-decoration: none
+
+        
+        .mentioning__block__list
+            display: block
+            margin: 0 auto
+        .mentioning__block__item
+            border-bottom: 2px solid $textColor
+            p
+                font-size: 25px
+                @media only screen and (max-width: 769px)
+                    font-size: 20px
+                @media only screen and (max-width: 427px)
+                    font-size: 15px
+            .item__block
+                display: flex
+                align-items: center
+                @media only screen and (max-width: 769px)
+                    flex-direction: column
+                    
+            .item__img
+                width: 10vw
+                height: 10vw
+                min-width: 150px
+                min-height: 150px
+                margin-right: 1vw 
+                @media only screen and (max-width: 769px)
+                    width: 75vw
+                    margin: 0 auto
+        .last-item
+            border-bottom: none
+        .data
+            display: block
+            color: $textColor
+            float: right
+            margin-top: -20px
+
+@import "footer.sass"
