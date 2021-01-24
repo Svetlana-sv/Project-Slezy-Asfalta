@@ -19,6 +19,11 @@ header {
     height: 80vh;
   }
 }
+@media only screen and (max-width: 427px) {
+  header .navbar-brand img {
+    width: 35px !important;
+  }
+}
 header .navbar-collapse {
   float: right !important;
   text-align: center;
@@ -77,7 +82,6 @@ header .socialNetwork img {
 }
 header .socialNetwork img:hover {
   opacity: 100%;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
 section {
