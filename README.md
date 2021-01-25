@@ -14,7 +14,7 @@
 * PostgreSQL
 * DBeaver
 
-[Ссылка на сайт](http://pd-2020-2.std-950.ist.mospolytech.ru)
+[Ссылка на сайт](https://sleziasfalta.ru/)
 
 Среди задач проекта выделили:
 * Ознакомление с запросами и требованиями заказчика
@@ -28,6 +28,8 @@
 * Документирование и отчетность по проекту
 
 Задачи по проекту доступны на доске [trello](https://trello.com/b/a6mcytVd/%D0%BF%D0%B4-%D1%81%D0%BB%D0%B5%D0%B7%D1%8B-%D0%B0%D1%81%D1%84%D0%B0%D0%BB%D1%8C%D1%82%D0%B0)
+
+[Лендинг проекта](http://pd-2020-2.std-950.ist.mospolytech.ru)
 
 Макет сайта доступен на [Figma](https://www.figma.com/file/quGzs9PzJGFxfrlEd7Ff2d/%D0%A1%D0%BB%D1%91%D0%B7%D1%8B-%D0%90%D1%81%D1%84%D0%B0%D0%BB%D1%8C%D1%82%D0%B0?node-id=0%3A1)
 
